@@ -1,0 +1,30 @@
+
+
+
+
+673596000000
+76849
+646652236849
+
+
+
+
+# Proposition 3.3
+.0. Syl_31(G) is self-centralizing and of index 6.
+.1. Syl_37(G) is self-centralizing and of index 18.
+.2. Syl_67(G) is self-centralizing and of index 22.
+
+# Proof of Proposition 3.3.0
+Let P ∈ Syl_31(G)
+Let N := N_G(P)
+Let F := |N:P|
+Assert |G:P| ≡₃₁ F
+Assert |C_G(P)| divides g_pi'
+Assert F ≡₃₁ 6
+Assert F divides 30*37*67
+Then F ∈ {6, 37}
+Assert F ≠ 37
+Then F = 6
+
+# Proposition 3.2
+|G| = 2^8 . 3^7 . 5^6 . 7 . 11 . 31 . 37 . 67

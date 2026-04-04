@@ -1,0 +1,17 @@
+
+
+
+{
+  Let G be some finite simple group
+
+  Let t ∈ G such that
+    |t| = 2
+  
+  Let A be a central extension of Alt(11) by Cyc(2)
+  
+  If
+    C_G(t) ≅ A
+  Then
+    |G| = 51765179004000000
+    Define G of type Ly.
+}
