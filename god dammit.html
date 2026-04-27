@@ -1,0 +1,253 @@
+<style>
+   t,def {display: block;}
+   /* h+x:before{content:'⟶';} */
+   old{display:none;}
+ t,x,h, def{
+  
+        border:2px solid black;
+        display:inline-block;
+        padding: 0.5em 1em;
+        border-radius: 5px;
+        
+        background-color: khaki;
+        
+        background-color: mediumorchid;
+        background-color: white;
+      }
+      .ass{
+        background-color: plum;
+
+      }
+      .def, def{ background-color: aquamarine; }
+      .conc{ background-color: salmon; }
+      .any, body>t { background-color:linen; }
+      .let, h { background-color:lightblue; }
+
+
+svg#boner{
+  background-color:cyan;
+  width:210px;
+  height:90px;
+  border: 4px solid black;
+  text{
+    text-anchor: middle;
+    dominant-baseline: middle;
+  }
+}
+</style>
+<body>
+<svg id="boner">
+  
+  <g>
+    <path id="fla-border" d="
+  M10 10 L 10 10 L 20 5 z
+  " stroke="blue" fill="red"></path>
+    <text>This is some proof.</text>
+
+  </g>
+</svg>
+<script>
+  let x=35
+  let y=15
+  document.getElementById("fla-border").setAttribute("d",
+    `M 0 ${y/2} L ${y/4} 0 H ${x-y/4} L ${x} ${y/2} L ${x-y/4} ${y} H ${y/4} z`
+  )
+</script>
+
+¬⊤ = ⊥
+¬⊥ = ⊤
+
+⊤ ∧ ⊤ = ⊤
+⊤ ∧ ⊥ = ⊥
+⊥ ∧ ⊤ = ⊥
+⊥ ∧ ⊥ = ⊥
+
+⊤ ∨ ⊤ = ⊤
+⊤ ∨ ⊥ = ⊤
+⊥ ∨ ⊤ = ⊤
+⊥ ∨ ⊥ = ⊥
+
+⊤ ⟶ ⊤ = ⊤
+⊤ ⟶ ⊥ = ⊥
+⊥ ⟶ ⊤ = ⊤
+⊥ ⟶ ⊥ = ⊤
+
+⊤ ⟷ ⊤ = ⊤
+⊤ ⟷ ⊥ = ⊥
+⊥ ⟷ ⊤ = ⊥
+⊥ ⟷ ⊥ = ⊤
+
+⊤  ⊤ = 
+⊤  ⊥ = 
+⊥  ⊤ = 
+⊥  ⊥ = 
+
+</body>
+<body>
+
+<t>
+  C is said to be a category if
+  C contains a collection of objects Ob(C)
+  <sub>X,Y,Z</sub>∀<sub>ob(C)</sub>
+  
+
+
+</t>
+
+</body>
+<body>
+
+
+Tho68/Main
+
+<t id="Tho68/Cor2">
+  <h>G is a finite group</h> ⟶
+  <st> G solvable ⟷ <sub>a,b</sub>∀<sub>G</sub> ⟨{a,b}⟩ solvable </st>
+  <old>A finite group is solvable if and only if every pair of its elements generates a solvable group.</old>
+</t>
+<br>
+
+<t id="Tho68/Cor3">
+  <h>G is a finite group</h> ⟶
+  <st> G solvable ⟷ ¬<sub>a,b,c</sub>∃<sub>(1∉{a,b,c}) ∧ (#a, #b coprime) ∧ (#a, #c coprime) ∧ (#b, #c coprime) ∧ (a.b.c = 1)</sub> G </st>
+  <old>A finite group is solvable if and only if it does not contain three nonidentity elements A, B, C of pairwise coprime orders such that ABC=1.</old>
+</t>
+
+<t>
+  <h>G is a sporadic group</h> ⟶
+  (Φ) <x> G &cong; J </x><br>
+  (Φ) <x> G &cong; M </x><br>
+  <x class="conc"> &xvee; Φ &rightarrow; <x>G is a Hurwitz group</x> </x><br>
+</t>
+<t>
+  <h>G is a sporadic group</h> ⟶
+  (Φ) <x> G &cong; J </x><br>
+  (Φ) <x> G &cong; M </x><br>
+  <x class="conc"> &xvee; Φ &rightarrow; <x>G is a Hurwitz group</x> </x><br>
+</t>
+
+
+
+
+∧∨
+<t class="lemma"><h>A, B, C of type Set</h> ⟶
+  <x>(A ∩ (B ∪ C)) = ((A ∩ B) ∪ (A ∩ C))</x>
+</t>
+
+<t class="lemma"><h>A, B, C of type Set</h> ⟶
+  <x>(A ∖ (B ∪ C)) = ((A ∖ B) ∩ (A ∖ C))</x></t>
+
+<def>[x, y] = {{x}, {x, y}}</def>
+
+<t class="lemma"><h>a, b, c exist</h> ⟶
+  ([a, b] = [c, d]) ⟷ ((a = c) ∧ (b = d))</t>
+<t class="lemma"><h>a, b, c exist</h> ⟶
+  ((a = b) ∧ (b = c)) ⟶ (a = b)</t>
+
+<t class="lemma"> <!-- Condradictory method -->
+  <h>a, b ∈ 𝔹</h> ⟶
+  <x>((a ⟶ b) ∧ (a ⟶ ¬b)) ⟶ ¬a</x>
+</t>
+
+<t>
+  Let B be a p-group
+</t>
+
+
+<t class="lemma">
+  <h>x exist</h> ⟶
+  <x>x = x</x>
+</t>
+<t class="lemma">
+  <h>x, y exist</h> ⟶
+  <x>(x = y) ⟶ (y = x)</x>
+</t>
+
+<t class="lemma" id="Rud81/1.1">
+  <h>G, H ∈ FinGrp</h> ⟶
+  <x>
+    (H ∈ maxsub G) ∧ (H ∈ FinSimGrp) ∧ ¬<sub>Q</sub>∃<sub>#(G:H) = #Q</sub> FinCharSimGrp
+    ⟶ (G ∈ FinSimGrp)
+  </x>
+</t>
+
+<t class="lemma" id="Rud81/1.2">
+  <h></h> ⟶
+  <x>
+    
+  </x>
+  <old>Suppose G is a finite group with a maximal subgroup P of prime order p. Then either P is normal in G or G has a normal subgroup Q of index p in G.</old>
+</t>
+
+
+<t class="lemma" id="Rud81/1.3">
+  <old>Suppose G is a finite group and H is a maximal subgroup of G such that ((the commutator subgroup H' of H is simple, is the unique proper normal subgroup of H, and has index p in H for some prime p) and (|G:H| is not a power of the order of any simple group)). Then either G is simple or G' is simple, has index p in G, and is the unique proper normal subgroup of G.</old>
+</t>
+<t class="lemma" id="Rud81/2.1">
+  <old>If H has a subgroup S of index 2304, then S ∩ H' ≅ PSL(2,25). In particular, S has a subgroup of index 2^e isomorphic to PSL(2,25).</old>
+</t>
+
+
+
+
+
+<t class="lemma" id="MoDa04/Main">
+  <old>All simple groups PSL(3,q), q is a prime power with q ≡<sub>5</sub> ±2 and (6,(q-1)/2) = 2 are 2-recognizable.</old>
+</t>
+<t class="lemma" id="MoDa04/3">
+  <old>Let G be a FinSimGrp such that (5,#G) = 1. Then G is isomorphic to one of the following simple groups:
+    (i) PSL(2,q), q ≡<sub>5</sub> ±2
+    (ii) PSL(3,q), q ≡<sub>5</sub> ±2
+    (iii) PSU(3,q), q ≡<sub>5</sub> ±2
+    (iv) G2(Q), q ≡<sub>5</sub> ±2
+    (v) 3D4(q), q ≡<sub>5</sub> ±2
+    (vi) 2G2(3^(2m+1)), m ≥ 1
+  </old>
+</t>
+<t class="lemma" id="BraSuz59/1">
+  <old>Let G be a group of finite even order. If the 2-Sylow group P of G is a generalized quaternion group, then G is not simple.</old>
+</t>
+<t class="lemma" id="BraSuz59/2">
+  <old>Let G be a finite group whose 2-Sylow group is a generalized quaternion group. If H is the unique maximal normal subgroup of odd order, then #Z(G/H) = 2.</old>
+</t>
+
+<t class="lemma" id="LagT">
+  <old>Let G be a group, H a subgroup of G. Then #G = #H * #(G:H)</old>
+</t>
+
+<t class="lemma" id="LagTF">
+  <old>Let G be a finite group, H a subgroup of G. Then #H divides #G.</old>
+</t>
+
+<t class="lemma" id="Asc86a/1.2">
+  <old>G group, S, H, subgroup G. Then S ∩ H subgroup G.</old>
+</t>
+<t class="lemma" id="trivial">
+  <old>G group, S subgroup G. Then S subset G.</old>
+</t>
+
+<t class="lemma" id="Asc86a/1.13">
+  <old>G is a group of exponent 2, then G is abelian.</old>
+</t>
+
+
+
+
+</body>
+
+
+<!--
+
+
+Rud
+Suz
+LyoSim
+ONaSim
+Tho
+Hel
+HarNor
+
+HigSim
+McL
+
+-->
