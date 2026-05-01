@@ -1,0 +1,43 @@
+1. Aschbacher77ChaChv "A characterization of Chevalley groups over fields of odd order"
+2. Aschbacher81FacCon "A factorization theorem for 2-constrained groups"
+3. Aschbacher81WeaClo "Weak closure in finite groups of even characteristic"
+4. Aschbacher82FieRep "GF(2)-representations of finite groups"
+5. Aschbacher80LieOdd "On finite groups of Lie type and odd characteristic"
+6. Aschbacher81FinRan "Finite groups of rank 3"
+7. Aschbacher81PshUp "Some results on pushing up in finite groups"
+8. AschbacherGorensteinLyons81 "The embedding of 2-locals in finite groups of characteristic 2-type"
+9. AschbacherSeitz76
+10. AschbacherSeitz "On groups with a standard component of known type"
+11. Bloom67 "The subgroups of PSL3(q), for odd q"
+12. BorelTits71 "Elements unipotents et sousgroupes paraboliques de groupes re'ductifs"
+13. Campbell78 "Pushing up in finite groups"
+14. FinkelsteinRudvalis73 "Maximal subgroups of the Hall-Janko-Wales group"
+15. Foote82 "Component type theorems for finite groups in characteristic 2"
+16. Gorenstein82 "Finite Groups"
+17. Gorenstein79 "The classification of finite simple groups I. Simple groups and local analysis"
+18. GorensteinHarada70 "On finite groups with Sylow 2-groups of type An, n=8,9,10,11"
+19. GorensteinLyonsAMS "The local structure of finite groups of characteristic 2-type"
+20. Griess?? "On the subgroup structure of the group of order 246.320.59.76.112.133.17.19.23.29.31.41.47.59.71
+21. Janko66 "A new finite simple group with abelian 2-Sylow subgroups and its characterization"
+22. Janko76 "A new finite simple group of order 86,775,571,046,562,880 which possesses M24 and the full covering group of M22 as subgroups"
+23. JankoThompson66 "On a class of finite simple groups of Ree"
+24. McBridePRE "Control of 2-fusion in 2-locals containing Sylow 2-groups"
+25. PowellHigman69 "Oxford Conference on Finite Simple Groups
+26. ScottGross76 "Proc. Conf. on Finite Groups"
+27. SeitzPRE "Generation of finite groups of Lie type"
+28. Shult65 "On groups admitting fixed point free operator groups"
+29. Smith79 "Large extra special subgroups of widths 4 and 6"
+30. Smith81 "A characterization of some Chevalley groups in characteristic two"
+31. Solomon81 "On certain 2-local blocks"
+32. SolomonTimmesfeld78 "A note on tightly embedded subgroups"
+33. Stroth80 "Endliche Gruppen, die eine maximale 2-locale Untergruppe M so da b Z(F*(M)) eine TI-Menge in G ist"
+34. Thompson68 "Nonsolvable finite groups all of whose local subgroups are solvable
+35. Timmesfeld75 "Groups with weakly closed TI-subgroups"
+36. Timmesfeld78 "On the structure of 2-local subgroups in finite groups"
+37. Timmesfeld81 "On finite groups in which a maximal abelian normal subgroup of some maximal 2-local is a TI-set"
+38. Timmesfeld79 "A note on 2-groups of GF(2n)-type"
+39. Ward66 "On Ree's series of simple groups"
+40. McClurg80 "The classification of F1-pairs"
+
+
+NOTE: Aschbacher mistyped Rudvalis' surname in \[14\].
