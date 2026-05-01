@@ -12,10 +12,10 @@ Theorem [ (
 ) ]
 
 
-equiv.
+So...
 
 Theorem [
-  (O(X) = 1)
+  X is simple
 -> (
   (X is of characteristic 2 type) OR (X is of component type) OR NOT (Syl2 X is connected)
 ) ]
