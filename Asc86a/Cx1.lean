@@ -17,8 +17,19 @@ Pow := x:G → n:Z → y:G
   -- for all finite n, Pow terminates as it is inductively defined and covers all n
 
 
-Comm : x:G → y:G → G
 
-IsAbelian : G → B
+
+ded IsAbelian : G:Grp → Bool := 
+
+Theorem 1.1
+  ∀ (G:Grp x:G n:Z m:Z) ((
+    Mul Pow x n Pow x m = Pow x (n+m) = Mul Pow x m Pow x n
+  ) ⋀ (
+    Pow Pow x n m = Pow x (n*m) = Pow Pow x m n
+  ))
+
+def IsSubgroup : H:Grp → G:Grp → Bool := H
+
+
 
 -/
